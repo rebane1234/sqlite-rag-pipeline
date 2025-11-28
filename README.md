@@ -6,38 +6,30 @@ An end-to-end Python pipeline that asynchronously scrapes websites, cleans the c
 
 # usage #
 
-
 1. Run the Pipeline
 This runs the Scraper, Processor, and a Test Search.
 Modify TARGET_URLS in main.py to change what you scrape.
 
-
 python main.py
-
 
 Note: The first run will download the embedding model (~90MB).
 
 2. Search the Knowledge Base
 To perform a specific search query against your database:
 
-
 python search.py
-
 
 (Edit the q variable in search.py to change the question).
 
 3. Visualise the Database
 To see exactly what text was scraped and chunked:
 
-
 python view_db.py
-
 
 This will launch a browser window using D-Tale.
 
 
 # Configuration #
-
 
 Check config.py to tweak:
 
@@ -47,7 +39,6 @@ EMBEDDING_MODEL_NAME: Change the HuggingFace model.
 
 
 # Project Structure #
-
 
 scraper.py: Handles async web crawling.
 processor.py: Cleans text and converts it to vectors.
