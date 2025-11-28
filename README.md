@@ -9,23 +9,23 @@ An end-to-end Python pipeline that asynchronously scrapes websites, cleans the c
 1. Run the Pipeline
 This runs the Scraper, Processor, and a Test Search.
 Modify TARGET_URLS in main.py to change what you scrape.
-
+```
 python main.py
-
+```
 Note: The first run will download the embedding model (~90MB).
 
 2. Search the Knowledge Base
 To perform a specific search query against your database:
-
+```
 python search.py
-
+```
 (Edit the q variable in search.py to change the question).
 
 3. Visualise the Database
 To see exactly what text was scraped and chunked:
-
+```
 python view_db.py
-
+```
 This will launch a browser window using D-Tale.
 
 
@@ -56,9 +56,9 @@ if __name__ == "__main__":
 ```
 
 # Inspect Data #
-
+```
 python view_db.py
-
+```
 A D-Tale window will open in your browser.
 Click on the raw_pages table to see the full scraped Markdown.
 
