@@ -3,9 +3,9 @@ An end-to-end Python pipeline that asynchronously scrapes websites, cleans the c
 
 (SQLite + Crawl4AI)
 
-#########
+
 # usage #
-#########
+
 
 1. Run the Pipeline
 This runs the Scraper, Processor, and a Test Search.
@@ -35,9 +35,9 @@ python view_db.py
 
 This will launch a browser window using D-Tale.
 
-#################
+
 # Configuration #
-#################
+
 
 Check config.py to tweak:
 
@@ -45,9 +45,9 @@ CHUNK_SIZE: How large text chunks should be.
 MAX_CONCURRENT_REQUESTS: Speed of the scraper.
 EMBEDDING_MODEL_NAME: Change the HuggingFace model.
 
-#####################
+
 # Project Structure #
-#####################
+
 
 scraper.py: Handles async web crawling.
 processor.py: Cleans text and converts it to vectors.
