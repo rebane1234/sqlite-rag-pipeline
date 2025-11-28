@@ -46,29 +46,28 @@ database.py: Handles SQL read/write operations.
 search.py: logic for cosine similarity calculation.
 
 
-Custom Search
+# Custom Search #
 Open search.py in your editor. Change the bottom section:
----------------------------------------------------------
+
 if __name__ == "__main__":
     q = "Who invented deep learning?" # <--- Change this
     hits = search_knowledge_base(q)
     # ...
----------------------------------------------------------
 
-Inspect Data
------------------
+
+# Inspect Data #
+
 python view_db.py
------------------
 
 A D-Tale window will open in your browser.
 Click on the raw_pages table to see the full scraped Markdown.
 
-Adding New Knowledge
---------------------
+# Adding New Knowledge #
+
 Open main.py.
 Add a new URL to the TARGET_URLS list (e.g., a news article or documentation page).
 Run python main.py again.
 Efficiency Check: The script checks the database first. It will not rescrape URLs it already has, and it will only vectorize new pages.
----------------------------------------------------------------------------------------------------------------------------------------
+
 
 
