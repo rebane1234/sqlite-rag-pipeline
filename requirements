@@ -1,0 +1,8 @@
+crawl4ai
+sentence-transformers
+pandas
+dtale
+tenacity
+numpy
+
+(specifically used python 3.12.5)
