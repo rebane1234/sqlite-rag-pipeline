@@ -48,12 +48,12 @@ search.py: logic for cosine similarity calculation.
 
 # Custom Search #
 Open search.py in your editor. Change the bottom section:
-
+```
 if __name__ == "__main__":
     q = "Who invented deep learning?" # <--- Change this
     hits = search_knowledge_base(q)
     # ...
-
+```
 
 # Inspect Data #
 
