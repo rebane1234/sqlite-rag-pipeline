@@ -16,7 +16,7 @@ TARGET_URLS = [
 
 def main():
     print("=======================================")
-    print("   AI INGESTION PIPELINE v2.0          ")
+    print("       INGESTION PIPELINE v2.0         ")
     print("=======================================")
 
     # 1. Setup DB
